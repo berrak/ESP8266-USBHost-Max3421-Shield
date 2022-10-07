@@ -7,7 +7,7 @@
 
 # The ESP8266 USB Host Shield
 
-The USB Host Shield contains all of the digital logic necessary to implement a full-speed USB 2.0 host controller with your microcontroller.
+The USB Host Shield contains all of the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller.
 
 ## USB Host + WiFi for microcontrollers 
 
