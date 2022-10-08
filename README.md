@@ -7,15 +7,13 @@
 
 # The ESP8266 USB Host Shield
 
-The USB Host Shield contains all of the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the `USB Host Shield library 2.0` does all the heavy lifting for you with the capabilities of the ESP8266.
+The `ESP8266 USB Host Shield` contains all the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the [USB Host Shield library 2.0](https://github.com/felis/USB_Host_Shield_2.0/) does all the heavy lifting for you with the capabilities of the ESP8266, and maybe you may create a new game with an old unused controller laying around.
 
-## USB Host + WiFi for microcontrollers 
+## USB Host + ESP8266 WiFi for microcontrollers 
 
-Add WiFi and the ESP8266 USB host shield and control network devices wireless with standard USB HID devices like a keyboard, mouse, and game controller.
- 
-An `ESP8266 D1-mini` and the super easy `ESP8266 USB Host Shield` will let you control other WiFi devices wireless without being forced to dedicate an entire computer for such tasks. 
+Add USB host capabilities with the `ESP8266 USB Host Shield` and control network devices wireless with standard USB HID devices like a keyboard, mouse, and game controller. Adding the shield board on top of the `ESP8266 D1-mini` will let you control other WiFi devices wireless without being forced to dedicate an entire computer for such tasks.
 
-Use the host shield and, for example, a `gaming joystick` to interface with and remotely control `within the capabilities` of the [USB Host Shield 2.0 Library](https://github.com/felis/USB_Host_Shield_2.0/), any microcontroller-based device with WiFi.
+Install the Arduino library in the IDE; within minutes, the library recognizes your HID device. Then, use the host shield and, for example, a `gaming joystick` to interface with and remotely control any microcontroller-based device with WiFi. It is indeed a plug-and-play solution.
 
 ## Board main features
 
