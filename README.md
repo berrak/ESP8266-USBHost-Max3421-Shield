@@ -7,7 +7,7 @@
 
 # The ESP8266 USB Host Shield
 
-The USB Host Shield contains all of the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller.
+The USB Host Shield contains all of the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the `USB Host Shield library 2.0` does all the heavy lifting for you with the capabilities of the ESP8266.
 
 ## USB Host + WiFi for microcontrollers 
 
@@ -28,7 +28,10 @@ The host controller MAX4321E chip uses a four-wire serial interface to communica
 - The host complies with USB Specification Revision 2.0, i.e., full-/low-Speed 12Mbps/1.5Mbps USB communication.
 - The ESP8266 board power the shield and the MAX3421E with 3.3V.
 
-The additional built-in GPIO pins from MAX3421E are not connected, and some other signals with the limited availability of pins on the ESP8266 D1-mini. See the `schematic` for all details. The Arduino library is for another shield implementation with `MAX3421E`, so certain aspects may not work exactly as in the example sketches. However, we have found that most HID devices are generally recognized.
+The additional built-in GPIO pins from MAX3421E are not connected, and some other signals with the limited availability of pins on the ESP8266 D1-mini. See the `schematic` for all details. 
+
+## Planned Improvements/Changes
+The Arduino host shield library is for the Arduino shield implementation with `MAX3421E`. However, we have found that USB devices are generally recognized with the `ESP8266 USB Host Shield` since it also uses the `MAX3421E`. For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/issues).
 
 ## Suggested items to add to the board
 
