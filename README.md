@@ -7,7 +7,7 @@
 
 # The ESP8266 USB Host Shield
 
-The `ESP8266 USB Host Shield` contains all the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the [USB Host Shield library 2.0](https://github.com/felis/USB_Host_Shield_2.0/) does all the heavy lifting for you with the capabilities of the ESP8266, and maybe you may create a new game with an old unused controller laying around.
+The `ESP8266 USB Host Shield` contains all the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the [USB Host Shield library 2.0](https://github.com/felis/USB_Host_Shield_2.0/) does all the heavy lifting for you with the capabilities of the ESP8266, and maybe you may create a new game or implement DIY intelligent home automation with an old unused controller laying around.
 
 ## USB Host + ESP8266 WiFi for microcontrollers 
 
@@ -54,7 +54,7 @@ Verify that the USB host shield library can use the device with the Arduino sket
 ## Specification for the `ESP8266 USB Host Shield v1.0`
 
 * Operating voltage: 3.3V - (via ESP8266)
-* The shield size is 26.5 x 31.5 mm (1.04" x 1.24") and fabricated as a four-layer board for superior signal integrity.
+* The shield size is 26.5 x 31.5 mm (1.04" x 1.24") and fabricated as a `four-layer board for superior signal integrity`.
 * Board thickness: 1.6 mm (63 mils).
 * Formfactor and pinout: Wemos/Lolin ESP8266 D1-mini.
 * Weight: 6 gram (0.21 ounce).
