@@ -29,7 +29,7 @@ The host controller MAX4321E chip uses a four-wire serial interface to communica
 The additional built-in GPIO pins from MAX3421E are not connected, and some other signals with the limited availability of pins on the ESP8266 D1-mini. See the `schematic` for all details. 
 
 ## Planned Improvements/Changes
-The Arduino host shield library is for the Arduino shield implementation with `MAX3421E`. However, we have found that USB devices are generally recognized with the `ESP8266 USB Host Shield` since it also uses the `MAX3421E`. For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/issues).
+The Arduino host shield library is for the `Arduino Host shield` implementation with `MAX3421E`. However, we have found that USB devices are generally recognized with the `ESP8266 USB Host Shield` since it also uses the `MAX3421E`. For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/issues).
 
 ## Suggested items to add to the board
 
