@@ -52,8 +52,8 @@ void setup() {
     // Loop continuously while WiFi is not connected
     while (WiFi.status() != WL_CONNECTED)
     {
-    delay(100);
-    Serial.print(".");
+        delay(100);
+        Serial.print(".");
     }
 
     // Connected to WiFi
@@ -65,7 +65,6 @@ void setup() {
     UDP.begin(UDP_PORT);
     Serial.print("Listening on UDP port ");
     Serial.println(UDP_PORT);
-
 }
 
 void loop() {
