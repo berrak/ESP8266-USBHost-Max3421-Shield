@@ -69,8 +69,8 @@ To remotely control ESP8266 with UDP broadcasts, see the example `ESP8266RemoteW
 
 ## Purchase the board
 
-The `ESP8266 USB Host Shield` board is available only fully assembled. `Tindie` has all the latest designed boards.
+The `ESP8266 USB Host Shield` board is available only fully assembled. [Tindie](https://www.tindie.com/products/28192/) has all the latest designed boards.
 
-[![Tindie](./images/tindie-small.png)](https://www.tindie.com/stores/debinix/)
+[![Tindie](./images/tindie-small.png)](https://www.tindie.com/products/28192/)
 
 I appreciate your support.
