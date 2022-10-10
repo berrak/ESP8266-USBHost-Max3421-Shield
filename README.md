@@ -4,6 +4,7 @@
 [![GitHub Release Date](https://img.shields.io/github/release-date/berrak/ESP8266-USBHost-Max3421-Shield.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/berrak/ESP8266-USBHost-Max3421-Shield.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/berrak/ESP8266-USBHost-Max3421-Shield.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/ESP8266-USBHost-Max3421-Shield/issues)
+![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_ESP8266-USBHost-Max3421-Shield)
 
 # The ESP8266 USB Host Shield
 
