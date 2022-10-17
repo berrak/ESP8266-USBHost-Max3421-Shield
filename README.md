@@ -10,7 +10,9 @@
 
 The `ESP8266 USB Host Shield` contains all the digital logic necessary to implement a full-speed USB 2.0 host controller with your ESP8266 microcontroller. There is no need to spend hours writing complicated code to decode various USB descriptors. Instead, the [USB Host Shield library 2.0](https://github.com/felis/USB_Host_Shield_2.0/) does all the heavy lifting for you with the capabilities of the ESP8266, and maybe you may create a new game, control robots or implement DIY intelligent home automation with an old unused controller laying around.
 
-## USB Host + ESP8266 WiFi for microcontrollers 
+## Client Device Control Using UDP from the USB Host Device
+
+![esp8266-usbhost-shield](./images/client-control-using-udp.png)
 
 Add USB host capabilities with the `ESP8266 USB Host Shield` and control network devices wireless with standard USB HID devices like a keyboard, mouse, and game controller. Adding the shield board on top of the `ESP8266 D1-mini` will let you control other WiFi devices wireless without being forced to dedicate an entire computer for such tasks.
 
@@ -74,3 +76,7 @@ The `ESP8266 USB Host Shield` board is available only fully assembled. [Tindie](
 [![Tindie](./images/tindie-small.png)](https://www.tindie.com/products/28192/)
 
 I appreciate your support.
+
+## Credits
+
+`Router` image by [Freepik](https://www.freepik.com/free-psd/3d-rendering-graphic-design-element_26433059.htm#query=wifi&position=16&from_view=search&track=sph) by Freepik. `Keyboard` image by [rawpixel.com](https://www.freepik.com/free-vector/illustration-computer-keyboard_2606087.htm#query=computer%20keyboard&position=0&from_view=search&track=sph) on Freepik.
