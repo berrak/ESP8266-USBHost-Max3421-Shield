@@ -65,23 +65,6 @@ void setup() {
     UDP.begin(UDP_PORT);
     Serial.print("Listening on UDP port ");
     Serial.println(UDP_PORT);
-    
-    pinMode(LED_BUILTIN, OUTPUT);
-    digitalWrite(LED_BUILTIN, HIGH);  // Listening OK
-}
-
-void blinkAtPacketReceived(void) {
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(250);
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(250);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(250);
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(250);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(250);
-    digitalWrite(LED_BUILTIN, HIGH);    
 }
 
 void loop() {
@@ -93,7 +76,6 @@ void loop() {
         Serial.print("-- Packet received: '");
         Serial.print(packet);
         Serial.println("'");
-        blinkAtPacketReceived();
 
         // Command table for various GPIO ports
         switch(packet){
